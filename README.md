@@ -63,7 +63,7 @@ Ahora desglosamos paso a paso el código:
 
 - <input name="month" type="number" placeholder="Month" max="12" min="1" autocomplete="off" autofocus>: Este es un campo de entrada numérico donde se espera que el usuario ingrese el mes del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 12).
 
-- "<input name="day" type="number" placeholder="Day" max="31" min="1" autocomplete="off" autofocus>": Este es otro campo de entrada numérico donde se espera que el usuario ingrese el día del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 31).
+- [<input name="day" type="number" placeholder="Day" max="31" min="1" autocomplete="off" autofocus>]: Este es otro campo de entrada numérico donde se espera que el usuario ingrese el día del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 31).
 
 - <input type="submit" value="Add Birthday">: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
 
