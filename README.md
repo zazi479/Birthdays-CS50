@@ -34,7 +34,7 @@ La función index se ejecuta cuando se accede a la ruta principal ("/") de la ap
 
 
 
-#HTML
+# HTML
 
 El body del HTML lo dividiremos en dos div, el primero llamado "jumbotron" y el segundo lo llamamos "section".
 
