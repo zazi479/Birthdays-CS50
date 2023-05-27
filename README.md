@@ -38,7 +38,7 @@ La función index se ejecuta cuando se accede a la ruta principal ("/") de la ap
 
 El body del HTML lo dividiremos en dos div, el primero llamado "jumbotron" y el segundo lo llamamos "section".
 
-Empezamos por la primera parte del body:
+Empezamos por **la primera** parte del body:
 
 ![](https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body%201.png)
 
@@ -68,10 +68,11 @@ Ahora desglosamos paso a paso el código:
 
 - ```<input type="submit" value="Add Birthday">```: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
 
+
+
+**La segunda** parte del body es el div "section",que muestra todos los cumpleaños almacenados en la base de datos.
+
 ![](https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body2.png)
-
-La segunda parte del bosy es el div "section",que muestra todos los cumpleaños almacenados en la base de datos.
-
 
 - ```<div class="section">```: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
 
