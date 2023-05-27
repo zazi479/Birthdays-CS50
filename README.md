@@ -47,25 +47,25 @@ En esta parte creamos en si el funcionamiento de la aplicación que permite a lo
 - Despues se conecta la aplicación a una base de datos SQLite llamada "birthdays.db".
 
 Ahora desglosamos paso a paso el código:
-- <div class="jumbotron">: Esta es una clase de Bootstrap que se utiliza para mostrar un encabezado destacado en la parte superior de la página. En este caso, contiene el título "Birthdays".
+- ```<div class="jumbotron">```: Esta es una clase de Bootstrap que se utiliza para mostrar un encabezado destacado en la parte superior de la página. En este caso, contiene el título "Birthdays".
 
 - ```<div class="container">```: Esta es otra clase de Bootstrap que se utiliza para envolver el contenido principal de la página y proporcionar un margen y un espacio adecuados alrededor del contenido.
 
-- <iv class="section>: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
+- ```<iv class="section>```: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
 
-- " div class="error_message" ": Esta clase se utiliza para mostrar un mensaje de error si ocurre algún problema al agregar un cumpleaños. El contenido del mensaje se muestra utilizando una variable {{ message }}, que se espera que sea proporcionada por el código Python.
+- ```<div class="error_message">```: Esta clase se utiliza para mostrar un mensaje de error si ocurre algún problema al agregar un cumpleaños. El contenido del mensaje se muestra utilizando una variable {{ message }}, que se espera que sea proporcionada por el código Python.
 
-- " h2>Add a Birthday</h2 ": Este encabezado muestra el título del formulario para agregar un cumpleaños.
+- ```<h2>Add a Birthday</h2>```: Este encabezado muestra el título del formulario para agregar un cumpleaños.
 
-- <form action="/" method="POST">: Este formulario se envía a la ruta principal ("/") de la aplicación Flask utilizando el método POST cuando se envía.
+- ```<form action="/" method="POST">```: Este formulario se envía a la ruta principal ("/") de la aplicación Flask utilizando el método POST cuando se envía.
 
-- <input name="name" type="text" placeholder="Name" autocomplete="off" autofocus>: Este es un campo de entrada de texto donde se espera que el usuario ingrese el nombre del cumpleañero.
+- ```<input name="name" type="text" placeholder="Name" autocomplete="off" autofocus>```: Este es un campo de entrada de texto donde se espera que el usuario ingrese el nombre del cumpleañero.
 
-- <input name="month" type="number" placeholder="Month" max="12" min="1" autocomplete="off" autofocus>: Este es un campo de entrada numérico donde se espera que el usuario ingrese el mes del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 12).
+- ```<input name="month" type="number" placeholder="Month" max="12" min="1" autocomplete="off" autofocus>```: Este es un campo de entrada numérico donde se espera que el usuario ingrese el mes del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 12).
 
-- [<input name="day" type="number" placeholder="Day" max="31" min="1" autocomplete="off" autofocus>]: Este es otro campo de entrada numérico donde se espera que el usuario ingrese el día del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 31).
+- ```<input name="day" type="number" placeholder="Day" max="31" min="1" autocomplete="off" autofocus>```: Este es otro campo de entrada numérico donde se espera que el usuario ingrese el día del cumpleaños. Se especifica un rango mínimo y máximo permitido (1 a 31).
 
-- <input type="submit" value="Add Birthday">: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
+- ```<input type="submit" value="Add Birthday">```: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
 
 
 
