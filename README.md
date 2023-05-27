@@ -68,7 +68,7 @@ Ahora desglosamos paso a paso el código:
 
 - ```<input type="submit" value="Add Birthday">```: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
 
-![]()https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body2.png)
+![](https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body2.png)
 
 La segunda parte del bosy es el div "section",que muestra todos los cumpleaños almacenados en la base de datos.
 
