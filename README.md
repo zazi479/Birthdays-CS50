@@ -51,11 +51,11 @@ Ahora desglosamos paso a paso el código:
 
 - <div class="container">: Esta es otra clase de Bootstrap que se utiliza para envolver el contenido principal de la página y proporcionar un margen y un espacio adecuados alrededor del contenido.
 
-- <div class="section">: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
+- " div class="section ": Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
 
-- <div class="error_message">: Esta clase se utiliza para mostrar un mensaje de error si ocurre algún problema al agregar un cumpleaños. El contenido del mensaje se muestra utilizando una variable {{ message }}, que se espera que sea proporcionada por el código Python.
+- " div class="error_message" ": Esta clase se utiliza para mostrar un mensaje de error si ocurre algún problema al agregar un cumpleaños. El contenido del mensaje se muestra utilizando una variable {{ message }}, que se espera que sea proporcionada por el código Python.
 
-- <h2>Add a Birthday</h2>: Este encabezado muestra el título del formulario para agregar un cumpleaños.
+- " h2>Add a Birthday</h2 ": Este encabezado muestra el título del formulario para agregar un cumpleaños.
 
 - <form action="/" method="POST">: Este formulario se envía a la ruta principal ("/") de la aplicación Flask utilizando el método POST cuando se envía.
 
