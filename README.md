@@ -43,6 +43,7 @@ Empezamos por la primera parte del body:
 ![](https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body%201.png)
 
 En esta parte creamos en si el funcionamiento de la aplicación que permite a los usuarios agregar cumpleaños a una base de datos y verlos en una página web.
+
 - Primero debemos configurarla aplicación Flask y establece opciones de configuración.
 - Despues se conecta la aplicación a una base de datos SQLite llamada "birthdays.db".
 
@@ -67,15 +68,54 @@ Ahora desglosamos paso a paso el código:
 
 - ```<input type="submit" value="Add Birthday">```: Este es un botón de envío que se utiliza para enviar el formulario y agregar el cumpleaños a la base de datos.
 
-
-
-
-
-
-
-
-
 ![]()https://github.com/zazi479/Birthdays-CS50/blob/247fda1caed4c391387351517aa0078516f6ff6c/flask/body2.png
+
+La segunda parte del bosy es el div "section",que muestra todos los cumpleaños almacenados en la base de datos.
+
+
+- ```<div class="section">```: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
+
+- ```<h2>All Birthdays</h2>```: Este encabezado muestra el título de la sección que muestra todos los cumpleaños.
+
+- ```<table>```: Este elemento crea una tabla para mostrar los cumpleaños.
+
+- ```<thead>```: Esta etiqueta define la sección de encabezado de la tabla.
+
+- ```<tr>```: Esta etiqueta define una fila en la sección de encabezado de la tabla.
+
+- ```<th>Name</th>```: Esta etiqueta define una celda de encabezado que muestra el texto "Name".
+
+- ```<th>Birthday</th>```: Esta etiqueta define otra celda de encabezado que muestra el texto "Birthday".
+
+- ```<tbody>```: Esta etiqueta define la sección de cuerpo de la tabla.
+
+- ```{% for birthday in birthdays %}```: Esta es una construcción de plantilla de Flask que crea un bucle que itera sobre la lista de cumpleaños proporcionada (variable birthdays).
+
+- ```<tr>```: Esta etiqueta define una fila en la sección de cuerpo de la tabla para cada cumpleaños.
+
+- ```<td>{{ birthday.name }}</td>```: Esta etiqueta define una celda que muestra el nombre del cumpleañero obtenido de la variable birthday.
+
+- ```<td>{{ birthday.month}}/{{ birthday.day }}</td>```: Esta etiqueta define otra celda que muestra la fecha del cumpleaños (mes y día) obtenida de la variable birthday.
+
+- ```{% endfor %}```: Esta etiqueta finaliza el bucle for.
+
+ En resumen, este parte del código HTML crea una sección en la página web que muestra una tabla con todos los cumpleaños almacenados en la base de datos. Cada fila de la tabla representa un cumpleaños y muestra el nombre y la fecha del cumpleaños.
+ 
+ Para poder comprobar que nuestro código funciona debemos de ejecutar en el terminal 
+ ``` Flask run ```  y hacer ctrl click en el link que nos proporciona.
+ 
+ ![](https://github.com/zazi479/Birthdays-CS50/blob/fc2b3ed4d8a189ac5faeb5c25996ff7772bd86a3/flask/abrir%20la%20web.png)
+
+Ahora mostramos el resultado de este codigo.
+
+![](https://github.com/zazi479/Birthdays-CS50/blob/d8015078c4cb053e3304d01805263910ecf89e85/flask/flask%20foto%20final%20maximo%20cumple.png
+
+Como se puede ver en la imagen he podido añadir la fecha de mi propio cumpleaños.
+
+Para resumir,con este código, puedes crear tu propia página web para administrar y ver cumpleaños. La página te permite agregar nuevos cumpleaños a una base de datos y luego ver la lista completa de cumpleaños almacenados. Es una forma divertida de mantener un registro de todos los cumpleaños importantes en tu vida.
+
+
+
 
 
 
