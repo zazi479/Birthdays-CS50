@@ -10,3 +10,7 @@ Completa la implementación de una aplicación web que permita a los usuarios al
 - Primero, en index.html, añade un formulario HTML. El formulario debe permitir a los usuarios introducir un nombre, un mes y un día de cumpleaños. Asegúrate de que el formulario se envía a / (su "acción") con un método post.
 - Luego, en app.py, añade lógica en el manejo de la petición POST para INSERTAR una nueva fila en la tabla de cumpleaños basándote en los datos proporcionados por el usuario.
 
+Para realizar los puntos que nos solicitan debemos ccompletar el código para poder crear una aplicación web Flask que permite agregar y mostrar cumpleaños.
+
+La parte complicada es completar la funcion principal que en este caso es la funcion def Index:
+
