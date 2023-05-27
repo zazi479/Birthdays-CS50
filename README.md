@@ -1,13 +1,12 @@
 # Birthdays-CS50
 
-Implementation Details
-Complete the implementation of a web application to let users store and keep track of birthdays.
+Detalles de la implementación
+Completa la implementación de una aplicación web que permita a los usuarios almacenar y realizar un seguimiento de los cumpleaños.
 
-- When the / route is requested via GET, your web application should display, in a table, all of the people in your database along with their birthdays.
-- First, in app.py, add logic in your GET request handling to query the birthdays.db database for all birthdays. Pass all of that data to your index.html template.
-- Then, in index.html, add logic to render each birthday as a row in the table. Each row should have two columns: one column for the person’s name and another column for the person’s birthday.
-- When the / route is requested via POST, your web application should add a new birthday to your database and then re-render the index page.
-- First, in index.html, add an HTML form. The form should let users type in a name, a birthday month, and a birthday day. Be sure the form submits to / (its “action”) with a method of post.
-- Then, in app.py, add logic in your POST request handling to INSERT a new row into the birthdays table based on the data supplied by the user.
-
+- Cuando la ruta / es solicitada vía GET, tu aplicación web debe mostrar, en una tabla, todas las personas en tu base de datos junto con sus cumpleaños.
+- Primero, en app.py, añade lógica en el manejo de tu petición GET para consultar la base de datos birthdays.db para todos los cumpleaños. Pasa todos esos datos a tu plantilla index.html.
+- A continuación, en index.html, añade lógica para representar cada cumpleaños como una fila en la tabla. Cada fila debe tener dos columnas: una columna para el nombre de la persona y otra columna para el cumpleaños de la persona.
+- Cuando la ruta / es solicitada vía POST, tu aplicación web debería añadir un nuevo cumpleaños a tu base de datos y luego volver a renderizar la página index.
+- Primero, en index.html, añade un formulario HTML. El formulario debe permitir a los usuarios introducir un nombre, un mes y un día de cumpleaños. Asegúrate de que el formulario se envía a / (su "acción") con un método post.
+- Luego, en app.py, añade lógica en el manejo de la petición POST para INSERTAR una nueva fila en la tabla de cumpleaños basándote en los datos proporcionados por el usuario.
 
