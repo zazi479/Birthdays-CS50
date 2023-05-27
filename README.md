@@ -49,9 +49,9 @@ En esta parte creamos en si el funcionamiento de la aplicación que permite a lo
 Ahora desglosamos paso a paso el código:
 - <div class="jumbotron">: Esta es una clase de Bootstrap que se utiliza para mostrar un encabezado destacado en la parte superior de la página. En este caso, contiene el título "Birthdays".
 
-- <div class="container">: Esta es otra clase de Bootstrap que se utiliza para envolver el contenido principal de la página y proporcionar un margen y un espacio adecuados alrededor del contenido.
+- ```<div class="container">```: Esta es otra clase de Bootstrap que se utiliza para envolver el contenido principal de la página y proporcionar un margen y un espacio adecuados alrededor del contenido.
 
-- " div class="section ": Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
+- <iv class="section>: Este div se utiliza para agrupar elementos relacionados dentro del contenedor principal.
 
 - " div class="error_message" ": Esta clase se utiliza para mostrar un mensaje de error si ocurre algún problema al agregar un cumpleaños. El contenido del mensaje se muestra utilizando una variable {{ message }}, que se espera que sea proporcionada por el código Python.
 
